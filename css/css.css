@@ -3,7 +3,7 @@ body, div, dl, dt, dd, a, p, h1, h2, h3, h4, h5, h6, canvas, ul, li {
     padding: 0;
 }
 /*
-* 整个龙猫写的比较粗糙，胳膊，眼镜，耳朵，没有简写，有兴趣的同学可以继续优化。
+* 整个龙猫写的比较粗糙，胳膊，眼镜，耳朵，没有简写，有兴趣的同学可以继续优化。可以联系我交流
 */
 .totoro { position: relative; height: 583px; width: 400px; margin: 50px auto 0; }
 .body { position: absolute; top: 108px; height: 420px; left: 24px; width: 351px; border-radius: 58% 58% 53% 55% / 57% 56% 55% 53%; background-image: radial-gradient(farthest-side ellipse at 44% 34%, hsl(0, 0%, 100%) 25%, #e8e8e8 41%, #9c9c9c 96%) }

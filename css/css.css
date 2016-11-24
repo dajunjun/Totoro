@@ -1,0 +1,52 @@
+body, div, dl, dt, dd, a, p, h1, h2, h3, h4, h5, h6, canvas, ul, li {
+    margin: 0;
+    padding: 0;
+}
+/*
+* 整个龙猫写的比较粗糙，胳膊，眼镜，耳朵，没有简写，有兴趣的同学可以继续优化。
+*/
+.totoro { position: relative; height: 583px; width: 400px; margin: 50px auto 0; }
+.body { position: absolute; top: 108px; height: 420px; left: 24px; width: 351px; border-radius: 58% 58% 53% 55% / 57% 56% 55% 53%; background-image: radial-gradient(farthest-side ellipse at 44% 34%, hsl(0, 0%, 100%) 25%, #e8e8e8 41%, #9c9c9c 96%) }
+.left-arm{ width: 160px; height: 70px; border-radius: 100% 24% 100% 14%; background: #a3a3a3; transform: rotate(80deg); position: absolute; left: -60px; top: 160px; z-index: -1; background-image:-webkit-linear-gradient(85deg, #a3a3a3, #424242)  }
+.right-arm{ width: 160px; height: 70px; border-radius: 100% 24% 100% 14%; background: #a3a3a3; transform: rotate(266deg); position: absolute; left: 250px; top: 160px; z-index: -1; background-image:-webkit-linear-gradient(85deg, #a3a3a3, #424242)  }
+.belly { position: absolute; bottom: 18px; left: 15px; width: 319px; height: 295px; background: #ccc; border-radius: 57% 56% 55% 53% /58% 58% 53% 55%; box-shadow: 0 5px 14px -2px #797979; background-image:radial-gradient(farthest-side ellipse at 41% 0, hsla(0, 0%, 100%, 0.98) 30%, #f7f7f7 41%, #c7c7c7 103%); }
+.triangle01{position: absolute; left:60px;top: 50px;}
+.triangle02{position: absolute; left:140px;top: 27px;}
+.triangle03{position: absolute; left:210px;top: 50px;}
+.triangle{ height: 30px; width: 10px; background: #8e8e8e; border-radius: 100% 14% 100% 14%; transform: rotate(-136deg);}
+.triangle:after{ content: ''; display: block; position: absolute; left: -15px; top: 15px;  height: 30px; width: 10px; background: #8e8e8e; border-radius: 100% 14% 150% 14%; transform: rotate(64deg);}
+
+.left-ears{ width: 150px; height: 150px;border-radius:0 100% ; background: #c5c5c5; transform: rotate(28deg); position: absolute;left:40px;top:26px; background:-webkit-linear-gradient(48deg, #ffffff, #ffffff 2px, #cacaca 105px, #545454 191px, #ff0000); box-shadow: 0 1px 32px 9px rgba(171, 171, 171, 0.34) inset; }
+.right-ears{ width: 150px; height: 150px;border-radius:100% 0; background: #c5c5c5; transform: rotate(-28deg); position: absolute;right:40px;top:26px; background:-webkit-linear-gradient(-48deg, #ffffff, #dcdcdc 92px, #c1c1c1 116px, #656565 169px, #ff0000); box-shadow: 0 1px 32px 9px rgba(171, 171, 171, 0.34) inset; }
+.left-eye, .right-eye{ position: absolute; top: 55px; left:108px; width: 36px; height:31px; border: 2px solid #9a9a9a; border-radius: 50%; background: #f3f3f5;}
+.left-eye:before, .right-eye:before{ content: ''; position: absolute; top: 12px; right:9px; width: 9px; height:9px;border-radius: 50%; background: #616162;}
+.right-eye{left:auto;right: 108px; }
+.right-eye:before{ right:auto; left:9px; }
+.nose{position: absolute; top: 73px; left:165px; width: 21px; height: 8px; border-radius: 50%; background: #5b5b5b;}
+.shadow{ position: absolute; top: 376px; left:100px;z-index: -2; width: 440px; height: 150px; border-radius: 50%;background-image:-webkit-linear-gradient(0deg, #424242, #808080); transform: rotate(-12deg)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
